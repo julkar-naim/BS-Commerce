@@ -6,7 +6,7 @@ const greet = () => {
 }
 
 greet()
-
+console.log("debugging")
 const giveMeARandomNumber = () => {
     return parseInt((Math.random() * 100) % 50)
 }
