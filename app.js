@@ -2,6 +2,11 @@
 
 const greet = () => {
     alert('Brain Station E-commerce')
+    alert('A random number: ' + giveMeARandomNumber())
 }
 
 greet()
+
+const giveMeARandomNumber = () => {
+    return parseInt((Math.random() * 100) % 50)
+}
